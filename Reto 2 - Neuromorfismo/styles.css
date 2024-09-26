@@ -1,0 +1,130 @@
+:root {
+    --blue: #EAF0F8;
+}
+
+body {
+    margin: 0;
+    background: var(--blue);
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 5fr 4fr 2fr;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.cards {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.list-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(-23%);
+}
+
+.cards .card {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background: var(--blue);
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.50), -10px -10px 15px 0px rgba(255, 255, 255, 0.50), 10px 10px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.progress-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container-bar {
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.container-bar .title-song {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-bar .artist-song {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+/* .progress {
+    
+} */
+
+.progress-bar {
+    width: 289px;
+    height: 9px;
+    background-color: gray;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 84px;
+    background: var(--blue);
+    box-shadow:  6px 6px 8px #c1c1c1,
+    -6px -6px 8px #ffffff;
+}
+
+.buttons div:nth-child(3) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 84px;
+    background: var(--blue);
+    box-shadow: inset 6px 6px 8px #c1c1c1,
+            inset -6px -6px 8px #ffffff;
+}
