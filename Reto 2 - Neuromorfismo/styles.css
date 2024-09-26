@@ -1,10 +1,14 @@
 :root {
     --blue: #EAF0F8;
+    --narajo: #FF885B;
+    --rosado: #FFE5CF;
+    --verde: #557C56;
+    --gris: #33372C;
 }
 
 body {
     margin: 0;
-    background: var(--blue);
+    background: var(--rosado);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: var(--narajo);
 }
 
 .cards {
@@ -39,7 +43,7 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    background: var(--blue);
+    background: var(--verde);
     box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.50), -10px -10px 15px 0px rgba(255, 255, 255, 0.50), 10px 10px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -47,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: var(--narajo);
 }
 
 .container-bar {
@@ -82,13 +86,13 @@ body {
 .progress-bar {
     width: 289px;
     height: 9px;
-    background-color: gray;
+    background-color: var(--gris);
 }
 
 .progress-bar-fill {
     height: 100%;
     width: 50%;
-    background-color: aqua;
+    background-color: var(--verde);
     margin-top: 30px;
 }
 
@@ -112,7 +116,7 @@ body {
     background-color: black;
     cursor: pointer;
     border-radius: 84px;
-    background: var(--blue);
+    background: var(--rosado);
     box-shadow:  6px 6px 8px #c1c1c1,
     -6px -6px 8px #ffffff;
 }
@@ -124,7 +128,7 @@ body {
     background-color: black;
     cursor: pointer;
     border-radius: 84px;
-    background: var(--blue);
+    background: var(--rosado);
     box-shadow: inset 6px 6px 8px #c1c1c1,
             inset -6px -6px 8px #ffffff;
 }
